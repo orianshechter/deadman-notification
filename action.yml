@@ -1,5 +1,5 @@
 name: "Notify action"
-description: Notify on no commits"
+description: "Notify on no commits"
 inputs:
   telegram_bot_token:
     description: "Bot unique token"

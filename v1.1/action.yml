@@ -1,0 +1,14 @@
+name: 'Notify action'
+description: 'Notify on no commits'
+inputs:
+  telegram_bot_token:
+    description: 'Bot unique token'
+    required: true
+    default: '0'
+  chat_id:
+    description: 'unique chat id'
+    required: true
+    default: '0'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
